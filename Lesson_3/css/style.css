@@ -1,0 +1,38 @@
+@import url("reset.css");
+
+* {
+    color: black;
+}
+[class*="_title"] {
+    color: gold;
+}
+div {
+    color: brown;
+}
+a {
+    color: chocolate;
+}
+.header__list a {
+    color: darkgreen;
+}
+#h-2 {
+    color: red;
+}
+.page__see_text {
+    color: darkmagenta;
+}
+.main__text .text__main {
+    color: darkslategrey;
+}
+.notes__list * {
+    color: blue;
+}
+.page__see_text > p {
+    color: grey;
+}
+.list__one + li {
+    color: aqua;
+}
+.list__three ~ li {
+    color: aquamarine;
+}
