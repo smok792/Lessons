@@ -1,0 +1,121 @@
+@import url(reset.css);
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.header {
+    background: url(../img/unsplash_WgMDQsn36w4.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+[class*="__container"] {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.header-data {
+    padding-top: 330px;
+    color : #E5E5E5;
+}
+.header-text > h1 {
+    max-width: 605px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #F8F9FA; 
+    margin-top: 15px;   
+    margin-bottom: 15px;
+}
+.header-text p {
+    display: block;
+    max-width: 400px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color : #E5E5E5;
+}
+.upper-main {
+    font-family: "Inter", sans-serif;
+    margin: 80px 0;
+    padding: 140px 0;
+    background: url(../img/speaker.png) 75% no-repeat, linear-gradient(295deg, rgba(244, 247, 255, 0) 0%, rgba(48, 86, 211, 0.08) 30%, rgba(244, 247, 255, 0) 30%), linear-gradient(295deg, rgba(48, 86, 211, 0) 0%, rgba(48, 86, 211, 0.08) 37%, rgba(244, 247, 255, 0) 37%) #F4F7FF;
+}
+.main-content {
+    width: 570px;
+}
+.main-valuable {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3056D3;
+}
+.main-text h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    padding: 13px 0;
+}
+.main-text p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #637381;
+    margin-bottom: 30px;
+}
+.button {
+    display: inline-block;
+    background: #3056D3; 
+    color: #fff; 
+    padding: 10px 15px; 
+    text-decoration: none;
+    border-radius: 30px;
+}
+.points-title {
+    padding-bottom: 45px;
+    font-weight: 400;
+    font-size: 26px;
+    color: #212B36;
+}
+.points-list {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #637381;
+    
+}
+.points-list ol {    
+    padding: 30px 0;
+}
+.points-list li {
+    margin-bottom: 15px;    
+}
+.list li {
+    min-height: 20px;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+.ellipse li {
+    background: url(../img/points/Ellipse.png) 0 3px / 8px no-repeat;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+.cross-circle li {
+    background: url(../img/points/cross-circle.png) 0 0 / 20px no-repeat;
+}
+.checkmark-circle_1 li {
+    background: url(../img/points/checkmark-circle_1.png) 0 0 / 20px no-repeat;
+}
+.arrow-right li {
+    background: url(../img/points/arrow-right.png) 0 0 / 20px no-repeat;
+}
+.checkmark-circle_2 li {
+    background: url(../img/points/checkmark-circle_2.png) 0 0 / 20px no-repeat;
+}
+.star li {
+    background: url(../img/points/star.png) 0 0 / 20px no-repeat;
+}
